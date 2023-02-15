@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+h4 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.active {
+    pointer-events: none;
+    opacity: .5;
+}
+
+.container.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    opacity: 1;
+    transition: .4s all ease;
+    pointer-events: auto;
+}
+
+
+.container {
+    opacity: 0;
+    pointer-events: none;
+}
+
+form {
+    padding: 1rem;
+    text-align: center;
+}
+
+.screen {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    margin-bottom: 1rem;
+}
+
+.ai-mess {
+    margin-bottom: 1rem;
+}
+
+.highScore td,
+th {
+    padding: .6rem;
+    padding-top: 0 !important;
+    text-align: center;
+}
